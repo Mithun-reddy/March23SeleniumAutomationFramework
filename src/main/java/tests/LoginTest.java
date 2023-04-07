@@ -17,7 +17,6 @@ import org.testng.annotations.Test;
 
 import constants.FileConstants;
 import file.utils.PropertiesFileutils;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import listeners.SfdcListeners;
 import pages.LoginPage;
 import pages.UserMenuPage;
