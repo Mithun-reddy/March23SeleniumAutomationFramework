@@ -4,7 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="tests.LoginTest"/>
-      <class name="tests.HomeTest"></class>
+      <class name="tests.UserMenuTest"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Regression -->

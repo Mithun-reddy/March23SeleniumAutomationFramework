@@ -6,10 +6,10 @@
       <class name="tests.LoginTest">
         <methods>
           <include name="removeDriver"/>
-          <include name="loginTest1"/>
           <include name="setDriver"/>
-          <include name="loginTest2"/>
+          <include name="tearDown"/>
           <include name="loginTest"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- tests.LoginTest -->
     </classes>

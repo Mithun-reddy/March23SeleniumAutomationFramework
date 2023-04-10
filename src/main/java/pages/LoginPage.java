@@ -12,8 +12,10 @@ import org.openqa.selenium.support.PageFactory;
 import file.utils.CommonUtils;
 
 public class LoginPage extends BasePage {
+	
 
 	public LoginPage(WebDriver driver) {
+		
 		PageFactory.initElements(driver, this);
 	}
 

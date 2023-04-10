@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <test name="Test(failed)">
     <classes>
-      <class name="tests.UserMenuTest">
+      <class name="tests.LoginTest">
         <methods>
-          <include name="userMenu_TC06"/>
           <include name="removeDriver"/>
           <include name="setDriver"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- tests.UserMenuTest -->
+      </class> <!-- tests.LoginTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Regression] -->

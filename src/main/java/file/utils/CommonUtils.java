@@ -11,6 +11,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.interactions.internal.TouchAction;
+import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -47,14 +49,18 @@ public class CommonUtils {
 		action.moveToElement(element).build().perform();
 	}
 	
-	public static void captureScreenShot(WebDriver driver) throws IOException {
+//	public static void moveToElement2(WebDriver driver, WebElement element) {
+//		Actions action = new Actions(driver);
+//		action.moveToElement(element, 40, 40);
+//	}
+	
+	public static String captureScreenShot(WebDriver driver) throws IOException {
 		TakesScreenshot sc = (TakesScreenshot) driver;
 		String sFileNamePrefix = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
 		String filePath = System.getProperty("user.dir")+"\\src\\main\\resources\\reports\\"+sFileNamePrefix+"_SFDC.PNG";
 		File src = sc.getScreenshotAs(OutputType.FILE);
 		File dst = new File(filePath);
 		FileUtils.copyFile(src, dst);
+		return filePath;
 	}
-
-	
 }
