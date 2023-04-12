@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
-  <test name="Test(failed)">
+  <parameter name="headless" value="false"/>
+  <parameter name="bName" value="chrome"/>
+  <test name="Login_Regression(failed)" parallel="methods">
     <classes>
       <class name="tests.LoginTest">
         <methods>
@@ -13,5 +15,5 @@
         </methods>
       </class> <!-- tests.LoginTest -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Login_Regression(failed) -->
 </suite> <!-- Failed suite [Regression] -->

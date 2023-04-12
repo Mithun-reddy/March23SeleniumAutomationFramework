@@ -15,6 +15,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -47,9 +48,10 @@ protected static Logger logger = LogManager.getLogger("");
 		logger.debug("BaseTest: tearDown: completed ");
 	}
 	
+	@Parameters({"bName","headless"})
 	@BeforeMethod
-	public void setDriver(Method name) {
-		WebDriver driver = BaseTest.getBrowserType("chrome", false);
+	public void setDriver(Method name, String bName, boolean headless) {
+		WebDriver driver = BaseTest.getBrowserType(bName, headless);
 		logger.debug("BaseTest: setDriver: driver configuration done");
 		threadLocalDriver.set(driver);
 		logger.debug("BaseTest: setDriver: driver saved on to a threadlocal object");
@@ -99,6 +101,7 @@ protected static Logger logger = LogManager.getLogger("");
 			logger.debug("BaseTest: getBrowserType: safari driver configured");
 			break;
 		case "firefox":
+			logger.debug("BaseTest: getBrowserType: firefox configuration started");
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 			logger.debug("BaseTest: getBrowserType: firefox driver configured");

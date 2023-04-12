@@ -31,7 +31,7 @@ import pages.UserMenuPage;
 public class LoginTest extends BaseTest {
 
 	
-	@Test()
+	@Test
 	public void loginTest() throws IOException, InterruptedException {
 		WebDriver driver =  BaseTest.getDriver();
 		LoginPage lp = new LoginPage(driver);
@@ -59,17 +59,40 @@ public class LoginTest extends BaseTest {
 	}
 	
 
-//	@Test(groups = {"regression"}, dependsOnGroups = {"smoke"}, successPercentage = 10 )
-	public void loginTest1() {
+	@Test
+	public void loginTest1() throws IOException {
 		WebDriver driver =  BaseTest.getDriver();
-		driver.get("https://google.com");
+		LoginPage lp = new LoginPage(driver);
+		UserMenuPage ump = new UserMenuPage(driver);
+//		extent.createtest()
+		Assert.assertTrue(lp.launchApp(driver, "https://login.salesforce.com/"), "Actual URL should match the expected URL");
+		test.log(Status.INFO, "App is launched");
+		lp.enterUsername(driver, PropertiesFileutils.readPropertiesFile(FileConstants.CREDENTIALS_FILE_PATH, "dev.username"));
+		test.log(Status.INFO, "Username is entered");
+//		Assert.assertEquals(lp.getUsername(driver), PropertiesFileutils.readPropertiesFile(FileConstants.CREDENTIALS_FILE_PATH, "dev.username"));
+		lp.enterPassword(driver, PropertiesFileutils.readPropertiesFile(FileConstants.CREDENTIALS_FILE_PATH, "dev.password"));
+		test.info("Password is entered");
+		Assert.assertTrue(lp.selectRememberMeCheckbox(), "Remember me checkbox should be selected");
+		test.info("Remember me checkbox selected");
+		lp.clickLoginButton(driver);
 	}
 	
-//	@Test(dependsOnMethods = "loginTest1", alwaysRun = true)
-	public void loginTest2() {
+	@Test
+	public void loginTest2() throws IOException {
 		WebDriver driver =  BaseTest.getDriver();
-		driver.get("https://google.com");
-		throw new NoSuchElementException();
+		LoginPage lp = new LoginPage(driver);
+		UserMenuPage ump = new UserMenuPage(driver);
+//		extent.createtest()
+		Assert.assertTrue(lp.launchApp(driver, "https://login.salesforce.com/"), "Actual URL should match the expected URL");
+		test.log(Status.INFO, "App is launched");
+		lp.enterUsername(driver, PropertiesFileutils.readPropertiesFile(FileConstants.CREDENTIALS_FILE_PATH, "dev.username"));
+		test.log(Status.INFO, "Username is entered");
+//		Assert.assertEquals(lp.getUsername(driver), PropertiesFileutils.readPropertiesFile(FileConstants.CREDENTIALS_FILE_PATH, "dev.username"));
+		lp.enterPassword(driver, PropertiesFileutils.readPropertiesFile(FileConstants.CREDENTIALS_FILE_PATH, "dev.password"));
+		test.info("Password is entered");
+		Assert.assertTrue(lp.selectRememberMeCheckbox(), "Remember me checkbox should be selected");
+		test.info("Remember me checkbox selected");
+		lp.clickLoginButton(driver);
 	}
 	
 //	@Test(dataProvider = "userCreds")

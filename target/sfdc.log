@@ -19,3 +19,209 @@
 2023-04-10-11:39:06 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
 2023-04-10-11:39:06 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
 2023-04-10-11:39:08 DEBUG BaseTest: tearDown: completed 
+2023-04-12-09:44:04 DEBUG BaseTest: setup: configuration started 
+2023-04-12-09:44:04 DEBUG BaseTest: setup: configuration complete
+2023-04-12-09:44:11 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-12-09:44:11 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-09:44:11 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-09:44:11 DEBUG BaseTest: setDriver: test object created
+2023-04-12-09:44:11 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-09:44:35 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-09:44:36 DEBUG SfdcListeners: onTestFailure: screen shot captured for test loginTest
+2023-04-12-09:44:36 DEBUG SfdcListeners: onTestFailure: Test Failed loginTest
+2023-04-12-09:44:36 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-09:44:37 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-09:44:39 DEBUG BaseTest: tearDown: completed 
+2023-04-12-10:01:41 DEBUG BaseTest: setup: configuration started 
+2023-04-12-10:01:42 DEBUG BaseTest: setup: configuration complete
+2023-04-12-10:01:47 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-12-10:01:47 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:01:47 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:01:47 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:01:47 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:02:11 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:02:13 DEBUG SfdcListeners: onTestFailure: screen shot captured for test loginTest
+2023-04-12-10:02:13 DEBUG SfdcListeners: onTestFailure: Test Failed loginTest
+2023-04-12-10:02:13 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:02:13 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:02:19 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-12-10:02:19 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:02:19 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:02:19 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:02:19 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest3
+2023-04-12-10:02:19 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:02:19 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-12-10:02:19 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:02:19 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:02:19 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:02:19 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest3
+2023-04-12-10:02:19 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:02:20 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-12-10:02:20 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:02:20 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:02:20 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:02:20 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest3
+2023-04-12-10:02:20 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:02:22 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:02:22 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:02:22 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:02:23 DEBUG BaseTest: tearDown: completed 
+2023-04-12-10:04:45 DEBUG BaseTest: setup: configuration started 
+2023-04-12-10:04:46 DEBUG BaseTest: setup: configuration complete
+2023-04-12-10:04:50 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:04:50 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:04:50 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:04:50 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:04:50 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:05:10 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:05:10 DEBUG SfdcListeners: onTestFailure: screen shot captured for test loginTest
+2023-04-12-10:05:10 DEBUG SfdcListeners: onTestFailure: Test Failed loginTest
+2023-04-12-10:05:10 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:05:10 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:05:14 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:05:14 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:05:14 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:05:14 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:05:14 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest3
+2023-04-12-10:05:14 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:05:14 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:05:14 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:05:14 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:05:14 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:05:14 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest3
+2023-04-12-10:05:14 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:05:14 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:05:14 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:05:14 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:05:14 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:05:14 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest3
+2023-04-12-10:05:14 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:05:14 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:05:14 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:05:14 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:05:16 DEBUG BaseTest: tearDown: completed 
+2023-04-12-10:09:11 DEBUG BaseTest: setup: configuration started 
+2023-04-12-10:09:12 DEBUG BaseTest: setup: configuration complete
+2023-04-12-10:09:15 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:09:15 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:09:15 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:09:15 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:09:15 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:09:33 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:09:34 DEBUG SfdcListeners: onTestFailure: screen shot captured for test loginTest
+2023-04-12-10:09:34 DEBUG SfdcListeners: onTestFailure: Test Failed loginTest
+2023-04-12-10:09:34 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:09:34 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:09:37 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:09:37 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:09:37 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:09:37 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:09:37 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest3
+2023-04-12-10:09:37 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:09:37 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:09:37 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:09:37 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:09:37 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:09:37 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest3
+2023-04-12-10:09:37 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:09:37 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:09:37 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:09:37 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:09:37 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:09:37 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest3
+2023-04-12-10:09:37 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:09:37 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:09:37 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:09:38 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:09:39 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:09:39 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:09:39 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:09:39 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:09:39 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:10:39 DEBUG SfdcListeners: onTestSuccess: Test passed  userMenu_TC06
+2023-04-12-10:10:39 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:10:39 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:10:41 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:10:41 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:10:41 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:10:41 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:10:41 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:10:51 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:10:56 DEBUG SfdcListeners: onTestFailure: screen shot captured for test loginTest
+2023-04-12-10:10:56 DEBUG SfdcListeners: onTestFailure: Test Failed loginTest
+2023-04-12-10:10:56 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:10:56 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:10:59 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:10:59 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:10:59 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:10:59 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:10:59 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest3
+2023-04-12-10:10:59 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:10:59 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:10:59 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:10:59 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:10:59 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:10:59 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest3
+2023-04-12-10:10:59 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:10:59 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:10:59 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:10:59 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:10:59 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:10:59 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest3
+2023-04-12-10:10:59 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:10:59 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:10:59 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:10:59 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:11:01 DEBUG BaseTest: getBrowserType: chrome driver in headless mode configured
+2023-04-12-10:11:01 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:11:01 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:11:01 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:11:01 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:11:58 DEBUG SfdcListeners: onTestSuccess: Test passed  userMenu_TC06
+2023-04-12-10:11:58 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:11:58 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:11:59 DEBUG BaseTest: tearDown: completed 
+2023-04-12-10:15:09 DEBUG BaseTest: setup: configuration started 
+2023-04-12-10:15:10 DEBUG BaseTest: setup: configuration complete
+2023-04-12-10:20:11 DEBUG BaseTest: setup: configuration started 
+2023-04-12-10:20:12 DEBUG BaseTest: setup: configuration complete
+2023-04-12-10:20:12 DEBUG BaseTest: getBrowserType: firefox configuration started
+2023-04-12-10:29:25 DEBUG BaseTest: setup: configuration started 
+2023-04-12-10:29:26 DEBUG BaseTest: setup: configuration complete
+2023-04-12-10:30:26 DEBUG BaseTest: setup: configuration started 
+2023-04-12-10:30:27 DEBUG BaseTest: setup: configuration complete
+2023-04-12-10:31:45 DEBUG BaseTest: setup: configuration started 
+2023-04-12-10:31:45 DEBUG BaseTest: setup: configuration complete
+2023-04-12-10:39:17 DEBUG BaseTest: setup: configuration started 
+2023-04-12-10:39:17 DEBUG BaseTest: setup: configuration complete
+2023-04-12-10:40:01 DEBUG BaseTest: setup: configuration started 
+2023-04-12-10:40:01 DEBUG BaseTest: setup: configuration complete
+2023-04-12-10:41:11 DEBUG BaseTest: setup: configuration started 
+2023-04-12-10:41:12 DEBUG BaseTest: setup: configuration complete
+2023-04-12-10:41:20 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-12-10:41:20 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-12-10:41:20 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:41:20 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:41:20 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:41:20 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:41:20 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:41:20 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:41:20 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:41:20 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:41:20 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-12-10:41:20 DEBUG BaseTest: setDriver: driver configuration done
+2023-04-12-10:41:20 DEBUG BaseTest: setDriver: driver saved on to a threadlocal object
+2023-04-12-10:41:20 DEBUG BaseTest: setDriver: test object created
+2023-04-12-10:41:20 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:41:56 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest2
+2023-04-12-10:41:56 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:42:01 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:42:02 DEBUG SfdcListeners: onTestFailure: screen shot captured for test loginTest
+2023-04-12-10:42:02 DEBUG SfdcListeners: onTestFailure: Test Failed loginTest
+2023-04-12-10:42:02 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:42:13 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:42:14 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:42:14 DEBUG SfdcListeners: onTestSuccess: Test passed  loginTest1
+2023-04-12-10:42:15 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
+2023-04-12-10:42:15 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
+2023-04-12-10:42:17 DEBUG BaseTest: tearDown: completed 

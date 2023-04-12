@@ -1,28 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="2" total="4" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression" duration-ms="108879" started-at="2023-04-10T18:41:56Z" finished-at="2023-04-10T18:43:45Z">
+  <suite name="Regression" duration-ms="63771" started-at="2023-04-12T17:41:12Z" finished-at="2023-04-12T17:42:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="108879" started-at="2023-04-10T18:41:56Z" finished-at="2023-04-10T18:43:45Z">
+    <test name="Login_Regression" duration-ms="63771" started-at="2023-04-12T17:41:12Z" finished-at="2023-04-12T17:42:15Z">
       <class name="tests.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginTest@1df8da7a]" name="setUp" is-config="true" duration-ms="631" started-at="2023-04-10T11:41:56Z" finished-at="2023-04-10T11:41:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginTest@660acfb]" name="setUp" is-config="true" duration-ms="542" started-at="2023-04-12T10:41:11Z" finished-at="2023-04-12T10:41:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setDriver(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@1df8da7a]" name="setDriver" is-config="true" duration-ms="6346" started-at="2023-04-10T11:41:56Z" finished-at="2023-04-10T11:42:03Z">
+        <test-method status="PASS" signature="setDriver(java.lang.reflect.Method, java.lang.String, boolean)[pri:0, instance:tests.LoginTest@660acfb]" name="setDriver" is-config="true" duration-ms="8345" started-at="2023-04-12T10:41:12Z" finished-at="2023-04-12T10:41:20Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.LoginTest.loginTest() throws java.io.IOException,java.lang.InterruptedException]]>
+                <![CDATA[public void tests.LoginTest.loginTest2() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setDriver -->
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:tests.LoginTest@1df8da7a]" name="loginTest" duration-ms="22847" started-at="2023-04-10T11:42:03Z" finished-at="2023-04-10T11:42:26Z">
+        <test-method status="PASS" signature="setDriver(java.lang.reflect.Method, java.lang.String, boolean)[pri:0, instance:tests.LoginTest@660acfb]" name="setDriver" is-config="true" duration-ms="8346" started-at="2023-04-12T10:41:12Z" finished-at="2023-04-12T10:41:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.loginTest() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="setDriver(java.lang.reflect.Method, java.lang.String, boolean)[pri:0, instance:tests.LoginTest@660acfb]" name="setDriver" is-config="true" duration-ms="8498" started-at="2023-04-12T10:41:12Z" finished-at="2023-04-12T10:41:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.loginTest1() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="loginTest2()[pri:0, instance:tests.LoginTest@660acfb]" name="loginTest2" duration-ms="35952" started-at="2023-04-12T10:41:20Z" finished-at="2023-04-12T10:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest2 -->
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:tests.LoginTest@660acfb]" name="loginTest" duration-ms="41022" started-at="2023-04-12T10:41:20Z" finished-at="2023-04-12T10:42:01Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failed to logout expected [true] but found [false]]]>
@@ -43,57 +99,36 @@
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="removeDriver()[pri:0, instance:tests.LoginTest@1df8da7a]" name="removeDriver" is-config="true" duration-ms="888" started-at="2023-04-10T11:42:27Z" finished-at="2023-04-10T11:42:28Z">
+        <test-method status="PASS" signature="loginTest1()[pri:0, instance:tests.LoginTest@660acfb]" name="loginTest1" duration-ms="54369" started-at="2023-04-12T10:41:20Z" finished-at="2023-04-12T10:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:tests.LoginTest@660acfb]" name="removeDriver" is-config="true" duration-ms="18249" started-at="2023-04-12T10:41:56Z" finished-at="2023-04-12T10:42:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeDriver -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@1df8da7a]" name="tearDown" is-config="true" duration-ms="1343" started-at="2023-04-10T11:43:45Z" finished-at="2023-04-10T11:43:47Z">
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:tests.LoginTest@660acfb]" name="removeDriver" is-config="true" duration-ms="10366" started-at="2023-04-12T10:42:02Z" finished-at="2023-04-12T10:42:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="removeDriver()[pri:0, instance:tests.LoginTest@660acfb]" name="removeDriver" is-config="true" duration-ms="812" started-at="2023-04-12T10:42:15Z" finished-at="2023-04-12T10:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@660acfb]" name="tearDown" is-config="true" duration-ms="1379" started-at="2023-04-12T10:42:15Z" finished-at="2023-04-12T10:42:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
-      <class name="tests.UserMenuTest">
-        <test-method status="PASS" signature="setDriver(java.lang.reflect.Method)[pri:0, instance:tests.UserMenuTest@23941fb4]" name="setDriver" is-config="true" duration-ms="2762" started-at="2023-04-10T11:42:28Z" finished-at="2023-04-10T11:42:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.UserMenuTest.userMenu_TC06() throws java.io.IOException,java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="userMenu_TC06()[pri:0, instance:tests.UserMenuTest@23941fb4]" name="userMenu_TC06" duration-ms="74169" started-at="2023-04-10T11:42:30Z" finished-at="2023-04-10T11:43:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- userMenu_TC06 -->
-        <test-method status="PASS" signature="removeDriver()[pri:0, instance:tests.UserMenuTest@23941fb4]" name="removeDriver" is-config="true" duration-ms="717" started-at="2023-04-10T11:43:44Z" finished-at="2023-04-10T11:43:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeDriver -->
-      </class> <!-- tests.UserMenuTest -->
-    </test> <!-- Test -->
+    </test> <!-- Login_Regression -->
   </suite> <!-- Regression -->
 </testng-results>
