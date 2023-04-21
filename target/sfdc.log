@@ -225,3 +225,14 @@
 2023-04-12-10:42:15 DEBUG BaseTest: getDriver: driver configuration retrived by the thread
 2023-04-12-10:42:15 DEBUG BaseTest: removeDriver: driver configuration removed from the thread
 2023-04-12-10:42:17 DEBUG BaseTest: tearDown: completed 
+2023-04-21-10:33:44 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-21-10:33:51 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-21-10:33:58 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-21-10:34:06 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-21-10:34:14 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-21-10:38:03 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-21-10:38:07 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-21-10:38:12 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-21-10:38:16 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-21-10:38:20 DEBUG BaseTest: getBrowserType: chrome driver configured
+2023-04-21-10:38:27 DEBUG BaseTest: getBrowserType: chrome driver configured
