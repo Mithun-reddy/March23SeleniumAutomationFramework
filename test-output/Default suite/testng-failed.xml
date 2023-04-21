@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.LoginTest">
+      <class name="steps.TestRunnerTestng">
         <methods>
-          <include name="removeDriver"/>
-          <include name="setDriver"/>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
-          <include name="setUp"/>
+          <include name="runScenario" invocation-numbers="3 4 5"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- steps.TestRunnerTestng -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

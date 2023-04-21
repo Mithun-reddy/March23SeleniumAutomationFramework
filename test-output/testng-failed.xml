@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
-  <parameter name="headless" value="false"/>
-  <parameter name="bName" value="chrome"/>
-  <test name="Login_Regression(failed)" parallel="methods">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="tests.LoginTest">
+      <class name="steps.TestRunnerTestng">
         <methods>
-          <include name="removeDriver"/>
-          <include name="setDriver"/>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
-          <include name="setUp"/>
+          <include name="runScenario" invocation-numbers="3 4 5"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- tests.LoginTest -->
+      </class> <!-- steps.TestRunnerTestng -->
     </classes>
-  </test> <!-- Login_Regression(failed) -->
-</suite> <!-- Failed suite [Regression] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

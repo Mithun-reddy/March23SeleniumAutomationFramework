@@ -1,134 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="3" ignored="0" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression" duration-ms="63771" started-at="2023-04-12T17:41:12Z" finished-at="2023-04-12T17:42:15Z">
+  <suite name="Default suite" duration-ms="57524" started-at="2023-04-21T18:09:01Z" finished-at="2023-04-21T18:09:58Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:steps.TestRunnerTestng@10e92f8f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Login_Regression" duration-ms="63771" started-at="2023-04-12T17:41:12Z" finished-at="2023-04-12T17:42:15Z">
-      <class name="tests.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.LoginTest@660acfb]" name="setUp" is-config="true" duration-ms="542" started-at="2023-04-12T10:41:11Z" finished-at="2023-04-12T10:41:12Z">
+    <test name="Default test" duration-ms="57524" started-at="2023-04-21T18:09:01Z" finished-at="2023-04-21T18:09:58Z">
+      <class name="steps.TestRunnerTestng">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:steps.TestRunnerTestng@10e92f8f]" name="setUpClass" is-config="true" duration-ms="2282" started-at="2023-04-21T11:09:01Z" finished-at="2023-04-21T11:09:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setDriver(java.lang.reflect.Method, java.lang.String, boolean)[pri:0, instance:tests.LoginTest@660acfb]" name="setDriver" is-config="true" duration-ms="8345" started-at="2023-04-12T10:41:12Z" finished-at="2023-04-12T10:41:20Z">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:steps.TestRunnerTestng@10e92f8f]" name="runScenario" duration-ms="9228" started-at="2023-04-21T11:09:03Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-21T11:09:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.LoginTest.loginTest2() throws java.io.IOException]]>
+                <![CDATA["Title of your scenario"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[false]]>
+                <![CDATA["Optional[Title of your feature]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="setDriver(java.lang.reflect.Method, java.lang.String, boolean)[pri:0, instance:tests.LoginTest@660acfb]" name="setDriver" is-config="true" duration-ms="8346" started-at="2023-04-12T10:41:12Z" finished-at="2023-04-12T10:41:20Z">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:steps.TestRunnerTestng@10e92f8f]" name="runScenario" duration-ms="4273" started-at="2023-04-21T11:09:13Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-21T11:09:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.LoginTest.loginTest() throws java.io.IOException,java.lang.InterruptedException]]>
+                <![CDATA["Title of your scenario outline"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[false]]>
+                <![CDATA["Optional[Title of your feature]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="setDriver(java.lang.reflect.Method, java.lang.String, boolean)[pri:0, instance:tests.LoginTest@660acfb]" name="setDriver" is-config="true" duration-ms="8498" started-at="2023-04-12T10:41:12Z" finished-at="2023-04-12T10:41:20Z">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:steps.TestRunnerTestng@10e92f8f]" name="runScenario" duration-ms="5078" started-at="2023-04-21T11:09:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-21T11:09:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void tests.LoginTest.loginTest1() throws java.io.IOException]]>
+                <![CDATA["Title of your scenario outline"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[false]]>
+                <![CDATA["Optional[Title of your feature]"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setDriver -->
-        <test-method status="PASS" signature="loginTest2()[pri:0, instance:tests.LoginTest@660acfb]" name="loginTest2" duration-ms="35952" started-at="2023-04-12T10:41:20Z" finished-at="2023-04-12T10:41:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest2 -->
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:tests.LoginTest@660acfb]" name="loginTest" duration-ms="41022" started-at="2023-04-12T10:41:20Z" finished-at="2023-04-12T10:42:01Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Failed to logout expected [true] but found [false]]]>
-            </message>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:steps.TestRunnerTestng@10e92f8f]" name="runScenario" duration-ms="15605" started-at="2023-04-21T11:09:22Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-21T11:09:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the login functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failed to logout expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertTrue(Assert.java:41)
-	at tests.LoginTest.loginTest(LoginTest.java:53)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy35.click(Unknown Source)
+	at steps.LoginSteps.user_clicks_on_login_button(LoginSteps.java:61)
+	at ✽.User clicks on login button(file:///C:/Users/user/eclipse-Mar23/Mar23SalesforceAutomation/src/main/java/features/LoginScenarios.feature:10)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest1()[pri:0, instance:tests.LoginTest@660acfb]" name="loginTest1" duration-ms="54369" started-at="2023-04-12T10:41:20Z" finished-at="2023-04-12T10:42:14Z">
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:steps.TestRunnerTestng@10e92f8f]" name="runScenario" duration-ms="12138" started-at="2023-04-21T11:09:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-21T11:09:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the login functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy35.click(Unknown Source)
+	at steps.LoginSteps.user_clicks_on_login_button(LoginSteps.java:61)
+	at ✽.User clicks on login button(file:///C:/Users/user/eclipse-Mar23/Mar23SalesforceAutomation/src/main/java/features/LoginScenarios.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest1 -->
-        <test-method status="PASS" signature="removeDriver()[pri:0, instance:tests.LoginTest@660acfb]" name="removeDriver" is-config="true" duration-ms="18249" started-at="2023-04-12T10:41:56Z" finished-at="2023-04-12T10:42:14Z">
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:steps.TestRunnerTestng@10e92f8f]" name="runScenario" duration-ms="8661" started-at="2023-04-21T11:09:50Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-21T11:09:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the login functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy35.click(Unknown Source)
+	at steps.LoginSteps.user_clicks_on_login_button(LoginSteps.java:61)
+	at ✽.User clicks on login button(file:///C:/Users/user/eclipse-Mar23/Mar23SalesforceAutomation/src/main/java/features/LoginScenarios.feature:22)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- removeDriver -->
-        <test-method status="PASS" signature="removeDriver()[pri:0, instance:tests.LoginTest@660acfb]" name="removeDriver" is-config="true" duration-ms="10366" started-at="2023-04-12T10:42:02Z" finished-at="2023-04-12T10:42:13Z">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:steps.TestRunnerTestng@10e92f8f]" name="tearDownClass" is-config="true" duration-ms="157" started-at="2023-04-21T11:09:58Z" finished-at="2023-04-21T11:09:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- removeDriver -->
-        <test-method status="PASS" signature="removeDriver()[pri:0, instance:tests.LoginTest@660acfb]" name="removeDriver" is-config="true" duration-ms="812" started-at="2023-04-12T10:42:15Z" finished-at="2023-04-12T10:42:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeDriver -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.LoginTest@660acfb]" name="tearDown" is-config="true" duration-ms="1379" started-at="2023-04-12T10:42:15Z" finished-at="2023-04-12T10:42:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.LoginTest -->
-    </test> <!-- Login_Regression -->
-  </suite> <!-- Regression -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- steps.TestRunnerTestng -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

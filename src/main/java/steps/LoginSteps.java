@@ -29,8 +29,6 @@ public class LoginSteps {
 	public void setUp(){
 //		System.out.println("Setup method .. ");
 		driver = BaseTest.getBrowserType("chrome", false);
-		
-		
 	}
 
 	
